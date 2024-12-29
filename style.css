@@ -1,0 +1,26 @@
+body {
+    font-family: 'VT323', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #33FF33;  /* Bright green text for that CRT terminal vibe */
+    flex-direction: column;
+}
+.container {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #33FF33;
+}
+a:hover {
+    text-decoration: underline;
+}
+.home-link {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
